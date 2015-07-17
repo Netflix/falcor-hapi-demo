@@ -1,0 +1,31 @@
+{
+  "name": "falcor-hapi-demo",
+  "version": "0.0.1",
+  "description": "A falcor server for hapi demo.",
+  "homepage": "https://github.com/Netflix/falcor-hapi",
+  "author": {
+    "name": "Netflix",
+    "url": "https://github.com/Netflix/falcor-hapi-demo/authors.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Netflix/falcor-hapi-demo.git"
+  },
+  "licenses": [
+    {
+      "type": "Apache License, Version 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  ],
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "falcor-hapi": "netflix/falcor-hapi",
+    "falcor-router-demo": "dzannotti/falcor-router-demo",
+    "hapi": "^8.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^0.21.0"
+  }
+}
