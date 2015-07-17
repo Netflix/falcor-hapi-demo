@@ -1,5 +1,5 @@
 var Hapi = require('hapi');
-var FalcorServer = require('falcor-hapi');
+var FalcorHandler = require('falcor-hapi');
 var FalcorRouterDemo = require('falcor-router-demo');
 
 var app = new Hapi.Server();
@@ -22,7 +22,7 @@ app.route({
 app.route({
     method: ["GET", "POST"],
     path: "/model.json",
-    handler: FalcorServer.dataSourceRoute(function(req, res) {
+    handler: FalcorHandler.dataSourceRoute(function(req, res) {
         return new FalcorRouterDemo();
     })
 });
