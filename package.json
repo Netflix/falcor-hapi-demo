@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "falcor-hapi": "netflix/falcor-hapi",
-    "falcor-router-demo": "dzannotti/falcor-router-demo",
+    "falcor-router-demo": "dzannotti/falcor-router-demo#restify",
     "hapi": "^8.8.0"
   },
   "devDependencies": {
