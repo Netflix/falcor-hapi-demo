@@ -23,7 +23,7 @@
   "dependencies": {
     "falcor-hapi": "netflix/falcor-hapi",
     "falcor-router-demo": "1.0.3",
-    "hapi": "^8.8.0"
+    "hapi": "^17.0.0"
   },
   "devDependencies": {
     "eslint": "^0.21.0"
